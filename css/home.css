@@ -226,5 +226,65 @@ div.row > div{
   color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 500;
+
 }
+
+.value{
+ margin-left: 70px;
+}
+
+
+
+
 /* end-service */
+/* bs5 */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+#detail{
+  /* background-color: rgba(0, 0, 0, 0.842); */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* color: white; */
+}
